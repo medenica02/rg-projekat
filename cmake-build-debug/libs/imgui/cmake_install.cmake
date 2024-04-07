@@ -1,4 +1,4 @@
-# Install script for directory: /home/jovana/Desktop/fakultet/3.godina/5.semestar/Racunarska grafika/Projekat/projekat-rg/project_base-main/libs/imgui
+# Install script for directory: /home/jovana/Desktop/fakultet/3.godina/5.semestar/Racunarska grafika/Projekat/pravi projekat/libs/imgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

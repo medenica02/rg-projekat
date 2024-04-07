@@ -1,4 +1,4 @@
-# Install script for directory: /home/jovana/Desktop/fakultet/3.godina/5.semestar/Racunarska grafika/Projekat/projekat-rg/project_base-main/libs/glad
+# Install script for directory: /home/jovana/Desktop/fakultet/3.godina/5.semestar/Racunarska grafika/Projekat/pravi projekat/libs/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

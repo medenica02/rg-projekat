@@ -58,8 +58,8 @@ struct ProgramState {
     bool ImGuiEnabled = false;
     Camera camera;
     bool CameraMouseMovementUpdateEnabled = true;
-    glm::vec3 backpackPosition = glm::vec3(0.0f);
-    float backpackScale = 1.0f;
+    glm::vec3 dino1Position = glm::vec3(0.0f);
+    float dino1Scale = 1.0f;
     PointLight pointLight;
     ProgramState()
             : camera(glm::vec3(0.0f, 0.0f, 3.0f)) {}
@@ -171,7 +171,7 @@ int main() {
     Shader skyboxShader("resources/shaders/skybox.vs","resources/shaders/skybox.fs");
     // load models
     // -----------
-    Model ourModel("resources/objects/backpack/backpack.obj");
+    Model ourModel("resources/objects/dino1/dino1.obj");
     ourModel.SetShaderTextureNamePrefix("material.");
 
     //facecull
@@ -298,8 +298,8 @@ int main() {
         // render the loaded model
         glm::mat4 model = glm::mat4(1.0f);
         model = glm::translate(model,
-                               programState->backpackPosition); // translate it down so it's at the center of the scene
-        model = glm::scale(model, glm::vec3(programState->backpackScale));    // it's a bit too big for our scene, so scale it down
+                               programState->dino1Position); // translate it down so it's at the center of the scene
+        model = glm::scale(model, glm::vec3(programState->dino1Scale));    // it's a bit too big for our scene, so scale it down
         ourShader.setMat4("model", model);
         ourModel.Draw(ourShader);
 
@@ -408,8 +408,8 @@ void DrawImGui(ProgramState *programState) {
         ImGui::Text("Hello text");
         ImGui::SliderFloat("Float slider", &f, 0.0, 1.0);
         ImGui::ColorEdit3("Background color", (float *) &programState->clearColor);
-        ImGui::DragFloat3("Backpack position", (float*)&programState->backpackPosition);
-        ImGui::DragFloat("Backpack scale", &programState->backpackScale, 0.05, 0.1, 4.0);
+        ImGui::DragFloat3("Backpack position", (float*)&programState->dino1Position);
+        ImGui::DragFloat("Backpack scale", &programState->dino1Scale, 0.05, 0.1, 4.0);
 
         ImGui::DragFloat("pointLight.constant", &programState->pointLight.constant, 0.05, 0.0, 1.0);
         ImGui::DragFloat("pointLight.linear", &programState->pointLight.linear, 0.05, 0.0, 1.0);
