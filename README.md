@@ -2,7 +2,7 @@
 Vracamo se unazad par miliona godina, u doba kad su ziveli dinosaurusi. 
 
 # Komande
-1.W-napred
+1.W-napred <br/>
 2.A-levo
 3.S-nazad
 4.D-desno
