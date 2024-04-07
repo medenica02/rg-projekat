@@ -1,0 +1,23 @@
+# ninja log v5
+0	138	1712340725453244161	libs/glad/CMakeFiles/glad.dir/src/glad.c.o	99f0d3912e16f34
+145	167	1712340725485244250	libs/glad/libglad.a	a68f6314a9434f8
+1	226	1712340725541244405	libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_opengl3.cpp.o	ef81836e57ae01da
+1	264	1712340725581244517	libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_glfw.cpp.o	99e90ea3c11f1010
+1	2858	1712340728173251714	libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables.cpp.o	d47288cb58f2f79a
+0	3224	1712340728537252724	CMakeFiles/project_base.dir/src/main.cpp.o	3f9097052c5b5ad6
+1	3643	1712340728957253890	libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo.cpp.o	ffbaedf914246c1e
+0	4938	1712340730249257476	CMakeFiles/STB_IMAGE.dir/libs/stb_image.cpp.o	684956313cd9908e
+4938	4950	1712340730265257521	libSTB_IMAGE.a	d3474f2bc87b66e0
+1	5127	1712340730441258009	libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.o	c7ab35d3e470036a
+1	5512	1712340730825259075	libs/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.o	e6c17adef7687c8b
+0	6490	1712340731801261783	libs/imgui/CMakeFiles/imgui.dir/src/imgui.cpp.o	1864bdd4795708e
+6490	6554	1712340731865261960	libs/imgui/libimgui.a	80dedfe7abd6d0ff
+6554	6669	1712340731985262293	/home/jovana/Desktop/fakultet/3.godina/5.semestar/Racunarska grafika/Projekat/projekat-rg/project_base-main/project_base	4d648d3df027d065
+1	2622	1712514861112091860	CMakeFiles/project_base.dir/src/main.cpp.o	3f9097052c5b5ad6
+2622	2761	1712514861256094189	/home/jovana/Desktop/fakultet/3.godina/5.semestar/Racunarska grafika/Projekat/projekat-rg/project_base-main/project_base	4d648d3df027d065
+1	2593	1712515002570427125	CMakeFiles/project_base.dir/src/main.cpp.o	3f9097052c5b5ad6
+2593	2707	1712515002686429072	/home/jovana/Desktop/fakultet/3.godina/5.semestar/Racunarska grafika/Projekat/projekat-rg/project_base-main/project_base	4d648d3df027d065
+1	2994	1712515838889209931	CMakeFiles/project_base.dir/src/main.cpp.o	3f9097052c5b5ad6
+2994	3166	1712515839065211994	/home/jovana/Desktop/fakultet/3.godina/5.semestar/Racunarska grafika/Projekat/projekat-rg/project_base-main/project_base	4d648d3df027d065
+1	2817	1712516010735324214	CMakeFiles/project_base.dir/src/main.cpp.o	3f9097052c5b5ad6
+2817	2931	1712516010855325752	/home/jovana/Desktop/fakultet/3.godina/5.semestar/Racunarska grafika/Projekat/projekat-rg/project_base-main/project_base	4d648d3df027d065
